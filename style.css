@@ -1,0 +1,39 @@
+.shadow-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.container{
+    width: 1140px;
+    margin: 0px auto;
+
+}
+
+.parent{
+    border: 5px solid darkblue;
+    display: flex;
+    height: 600px;
+    justify-content: center;
+}
+
+.child{
+    width: 150px;
+    height: 150px;
+    background-color: darkblue;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px;
+    line-height: 150px;
+}
+
+.child1{
+    align-self: ;
+}
+.child2{
+    align-self: center;
+}
+.child3{
+    align-self: end;
+}
